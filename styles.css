@@ -16,7 +16,8 @@ a,
     font-size: 18px;
 }
 
-.first-section {
+.first-section,
+.footer {
     background-color: #1F2937;
     color: white;
 }
@@ -138,4 +139,36 @@ button {
     text-align: right;
     margin-right: 40px;
     font-weight: bold;
+}
+
+.cta {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: white;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-subtext {
+    font-size: 14px;
+}
+
+.cta-button {
+    border: solid 1.5px white;
+    margin-right: 50px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
