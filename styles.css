@@ -63,7 +63,7 @@ a,
 }
 
 .hero {
-    padding-bottom: 50px;
+    padding-bottom: 75px;
     gap: 30px;
 }
 
@@ -77,4 +77,40 @@ button {
 
 .hero-left > * {
     margin-bottom: 8px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding: 30px;
+}
+
+.info-img {
+    height: 160px;
+    width: 160px;
+    border: solid 2px #3882F6;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+    padding-bottom: 90px;
+    gap: 30px;
+}
+
+.info-box {
+    text-align: center;
+}
+
+.info-box > p {
+    max-width: 170px;
+    font-size: 18px;
+    color: #757575;
 }
