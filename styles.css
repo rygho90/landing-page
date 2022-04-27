@@ -114,3 +114,28 @@ button {
     font-size: 18px;
     color: #757575;
 }
+
+.quote-section {
+    background: #E5E7EB;
+    
+}
+
+.quote-container {
+    max-width: 780px;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    max-width: 780px;
+}
+
+.quote-source {
+    text-align: right;
+    margin-right: 40px;
+    font-weight: bold;
+}
